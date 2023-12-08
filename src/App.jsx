@@ -9,7 +9,7 @@ const App = () => {
         <div className="w-[50%] p-1 rounded-lg bg-white shadow-md max-sm:w-[90%]">
           <SearchTask />
         </div>
-        <div className="w-[50%] p-1 rounded-lg bg-white shadow-md max-sm:w-[90%]">
+        <div className="w-[50%] p-1 rounded-lg bg-white shadow-md max-sm:w-[90%] flex justify-center">
           <AddTask />
         </div>
         <div className="w-[50%] py-4 h-[500px] p-1 bg-white rounded-xl shadow-md max-sm:w-[90%]">

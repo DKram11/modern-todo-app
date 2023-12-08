@@ -1,8 +1,20 @@
+import { plusIcon } from "../assets/icons"
+
 const AddTask = () => {
   return (
-    <div  className="bg-white rounded-md py-2 px-4 font-poppins">
-      <h1>Add New Task</h1>
-    </div>
+    <>
+    <button className="bg-white rounded-md py-2 px-4 font-poppins">
+      Add New Task
+    </button>
+    
+    <img 
+      src={plusIcon} 
+      alt="Add New Task" 
+      width={25}
+      height={30}
+
+    />
+    </>
   )
 }
 
