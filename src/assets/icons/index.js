@@ -1,6 +1,7 @@
-import  search  from './Search.png'
-
+import search  from './Search.png'
+import plusMath from './Plus-Math.png'
 
 export {
-  search
+  search,
+  plusMath
 }

@@ -23,4 +23,7 @@
   .border {
     @apply border-purple-600 border-2
   }
+  .responsive {
+    @apply max-sm:w-[90%] max-md:w-[70%] max-lg:w-[60%]
+  }
 }

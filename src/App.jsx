@@ -1,18 +1,22 @@
 import SearchTask from "./components/SearchTask"
-import AddTask from "./components/AddTask"
+import AddTaskBtn from "./components/AddTaskBtn"
 import ListTask from "./components/ListTask"
 
 const App = () => {
   return (
-    <main className="relative m-10 flex flex-col min-h-screen border">
+    <main className="relative m-10 flex flex-col min-h-screen">
       <div className="items-center flex flex-col gap-[10px] m-10 border">
-        <div className="w-[50%] p-1 rounded-lg bg-white shadow-md max-sm:w-[90%]">
+        
+        <div className="p-2 -mb-2 w-[40%] responsive">
+          <h1 className="font-poppins opacity-70 font-extrabold text-[25px]">TODO APP</h1>
+        </div>
+        <div className="w-[40%] p-1 rounded-lg bg-white shadow-md responsive">
           <SearchTask />
         </div>
-        <div className="w-[50%] p-1 rounded-lg bg-white shadow-md max-sm:w-[90%]">
-          <AddTask />
+        <div className="p-1 rounded-lg bg-white shadow-md responsive flex ">
+          <AddTaskBtn />
         </div>
-        <div className="w-[50%] py-4 h-[500px] p-1 bg-white rounded-xl shadow-md max-sm:w-[90%]">
+        <div className="w-[40%] py-4 h-[500px] p-1 bg-white rounded-xl shadow-md max-sm:w-[90%] responsive">
           <ListTask />
         </div>
       </div>
