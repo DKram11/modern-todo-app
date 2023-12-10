@@ -3,5 +3,7 @@ import plusMath from './Plus-Math.png'
 
 export {
   search,
+  plusIcon
+  search,
   plusMath
 }

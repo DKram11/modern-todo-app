@@ -1,5 +1,4 @@
 import SearchTask from "./components/SearchTask"
-import AddTaskBtn from "./components/AddTaskBtn"
 import ListTask from "./components/ListTask"
 
 const App = () => {
@@ -13,10 +12,10 @@ const App = () => {
         <div className="w-[40%] p-1 rounded-lg bg-white shadow-md responsive">
           <SearchTask />
         </div>
-        <div className="p-1 rounded-lg bg-white shadow-md responsive flex ">
-          <AddTaskBtn />
-        </div>
-        <div className="w-[40%] py-4 h-[500px] p-1 bg-white rounded-xl shadow-md max-sm:w-[90%] responsive">
+        <button className="w-[40%] shadow-md justify-center responsive items-center flex responsive rounded-lg bg-white hover:shadow-blue-200 hover:ease-in hover:transition hover:bg-blue-300  hover:text-white font-poppins text-xl py-3 text-slate-400">
+          Add New Task
+        </button>   
+        <div className="w-[40%] py- h-[500px] p-1 bg-white rounded-xl shadow-md max-sm:w-[90%] responsive">
           <ListTask />
         </div>
       </div>
